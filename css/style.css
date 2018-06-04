@@ -16,7 +16,11 @@
 	float:left;
 	width:45%;
 }
-
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
 .name {
 	margin-top: 146px;
 }
@@ -36,6 +40,9 @@
 	margin: -1px -16px;
 	background: #312f2f;
 }
+.portfolio {
+	background: #eae9e9;
+}
 .right {
 	margin-left: 50px;
 	
@@ -49,6 +56,25 @@
 .times {
 	font-family: "Times New Roman", Times, serif;
 }
+.thumbnail {
+	margin: 15px;
+	padding: 0;
+	border: 0;
+}
+.thumb-title {
+	text-align: center;
+}
+.thumb-wrapper {
+	text-decoration: none;
+	color: #5a5d5f;
+}
+.thumb-wrapper:hover {
+	text-decoration: none;
+	background: #4e4e4e;
+	color: white;
+	opacity: 0.6;
+    filter: alpha(opacity=60);
+} 
 @media (min-width: 546px){
 	.right {
 		margin-top: 113px;
