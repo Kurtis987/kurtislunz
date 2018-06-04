@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="./css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body class="portfolio">
+		<div id="nav-placeholder"></div>
+		<div class="container description">
+			<h1><strong>NFL Endzone</strong></h1>
+
+			<h2>What is this site for?</h2>
+
+			<p>This site is for the enjoyment of NFL stats, trivia and news</p>
+
+			<h2>What does it do?</h2>
+
+			<p>It tracks NFL News updates from twitter.
+			It houses stats from the 2017 NFL Season.
+			It is a place to enjoy NFL trivia.</p>
+
+			<h2>How does it work?</h2>
+
+			<p>This site uses MongoDB to store data, it uses D3,DC and Crossfilter to display graphs, and the site is styled with Bootstrap.</p>
+
+
+			<h2>Tech Used</h2>
+
+			<p>Some of the tech used includes: </p>
+			<h4>Twitter API</h4>
+				<p>I use the Twitter API to fetch tweets based off of the 'NFL' query</p>
+			<h4>MongoDB</h4>
+				<p>I use MongoDB to store data documents</p>
+			<h4>D3</h4>
+				<p>I used D3 to display static graphs</p>
+			<h4>DC and Crossfilter</h4>
+				<p>I used DC and Crossfilter to display graphs that the user can interact with</p>
+			<h4>Bootstrap</h4>
+			    <p>I use Bootstrap to give my project a simple, responsive layout</p>
+ 			
+			
+			<a class="btn btn-primary btn-lg" href="https://nfl-endzone.herokuapp.com/">Launch Site</a>
+			
+		</div>
+		<div class="site-images">
+			<img class="thumbnail" src="img/nfl-endzone-thumbnail.png" alt="NFL Endzone Thumbnail" width="500" height="500">
+
+		</div>
+		<script>
+			$(function(){
+			  $("#nav-placeholder").load("navbar.html");
+			});
+		</script>
+	</body>
+</html>

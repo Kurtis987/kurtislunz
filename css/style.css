@@ -16,6 +16,11 @@
 	float:left;
 	width:45%;
 }
+.description {
+	width: 50%;
+	float: left;
+	margin-bottom: 15px;
+}
 .flex-container {
 	display: flex;
 	flex-direction: row;

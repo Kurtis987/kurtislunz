@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="./css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body class="portfolio">
+		<div id="nav-placeholder"></div>
+		<div class="container description">
+			<h1><strong>School Donations</strong></h1>
+
+			<h2>What is this site for?</h2>
+
+			<p>This site is for displaying school donation statistics in a dynamic fashion.</p>
+
+			
+
+			<h2>How does it work?</h2>
+
+			<p>This site uses MongoDB to store data, and it uses D3,DC and Crossfilter to display graphs.</p>
+
+
+			<h2>Tech Used</h2>
+
+			<p>Some of the tech used includes: </p> 
+			<h4>MongoDB</h4>
+				<p>I use MongoDB to store data documents.</p>
+			<h4>D3,DC and Crossfilter</h4>
+				<p>I used D3, DC and Crossfilter to display dynamic graphs with which the user can interact.</p> 
+ 			
+			
+			<a class="btn btn-primary btn-lg" href="https://secure-dusk-44689.herokuapp.com/">Launch Site</a>
+			
+		</div>
+		<div class="site-images">
+			<img class="thumbnail" src="img/school-donations-thumbnail.png" alt="School Donations Thumbnail" width="500" height="500">
+
+		</div>
+		<script>
+			$(function(){
+			  $("#nav-placeholder").load("navbar.html");
+			});
+		</script>
+	</body>
+</html>

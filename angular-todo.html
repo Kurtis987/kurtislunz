@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="./css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body class="portfolio">
+		<div id="nav-placeholder"></div>
+		<div class="container description">
+			<h1><strong>Angular Todo</strong></h1> 
+
+			<h2>What is this app for?</h2>
+			<p>This is a Todo app. It helps users to keep track of any things that they have todo.</p>
+
+			<h2>What does it do?</h2>
+			<p>This app will allow users to register and login. Once the users have done that, they'll be able to create items to add to their todo list. Once they've created their todo list, they'll be able to update the status of each item and even delete items!</p>
+
+			<h2>How does it work?</h2>
+			<p>This app uses JSON Web Tokens to authenticate users and keep them logged in. All the data is consumed from an API hosted on Heroku using AngularJS. The site is styled with Bootstrap.</p>
+
+			<h2>Features:</h2>
+
+			<h3>User Based Features</h3>
+			<ul>
+				<li>Login</li>
+				<li>Logout</li>
+				<li>Display user in navbar</li>
+			</ul>	
+		
+			
+			<h3>Todo Based Features</h3>
+			<ul>
+				<li>Creating Todo Items</li>
+				<li>Retrieving Todo Items</li>
+				<li>Updating Todo Items</li>
+				<li>Deleting Todo Items</li>
+			</ul>
+			
+			
+			<h2>Tech Used</h2>
+			<p>Some of the tech used includes:</p>
+			<h3>AngularJS</h3>
+			<p>I use AngularJS to handle page routing, I also use it to make calls to the REST API and build custom directives</p>
+			<h3>Bootstrap</h3>
+			<p>I use Bootstrap to give the project a simple, responsive layout</p>
+			<h3>Npm</h3>
+			<p>NPM is used to help manage some of the dependencies in the application</p>
+			<h3>Bower</h3>
+			<p>Bower is used to manage the installation of the libraries and frameworks</p>
+			
+			<a class="btn btn-primary btn-lg" href="https://kurtis987.github.io/angular-todo/">Launch Site</a>
+			
+		</div>
+		<div class="site-images">
+			<img class="thumbnail" src="img/angular-todo.png" alt="Angular Todo Thumbnail" width="500" height="500">
+
+		</div>
+		<script>
+			$(function(){
+			  $("#nav-placeholder").load("navbar.html");
+			});
+		</script>
+	</body>
+</html>
