@@ -1,0 +1,74 @@
+.arial {
+	font-family: "Arial", sans-serif;
+}
+.bold {
+	font-weight: bold;
+}
+.dates {
+	font-style: italic;
+	padding-left:4em;
+	font-size: 14px;
+}
+#header-img {
+	border-radius: 200px;
+}
+.column {
+	float:left;
+	width:45%;
+}
+
+.name {
+	margin-top: 146px;
+}
+.navbar {
+	height: 230px;
+}
+
+.navbar-brand {
+	height: 230px;
+}
+.navbar-inverse {
+	background: #000;
+	border-color: #000;
+}
+
+.navbar-nav {
+	margin: -1px -16px;
+	background: #312f2f;
+}
+.right {
+	margin-left: 50px;
+	
+}
+.right-heading {
+	margin-top: 25px;
+}
+.tabbed {
+	list-style-type: none;
+}
+.times {
+	font-family: "Times New Roman", Times, serif;
+}
+@media (min-width: 546px){
+	.right {
+		margin-top: 113px;
+	}
+}
+@media (min-width: 768px){
+	.name { 
+		margin-top: 0;
+	 }
+	.navbar {
+		border-radius: 0;
+	}
+	.navbar-nav{
+		background: #000;
+		margin: 0;
+	} 
+	.navbar-right {
+		padding-top: 90px;
+	}
+	.right {
+			margin-left: 50px; 
+	}
+}
