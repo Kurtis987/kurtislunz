@@ -34,6 +34,7 @@
 .navbar-inverse {
 	background: #000;
 	border-color: #000;
+	margin-bottom: 120px;
 }
 
 .navbar-nav {
@@ -91,6 +92,9 @@
 		background: #000;
 		margin: 0;
 	} 
+	.navbar-invers {
+		margin-bottom: 7.5px;
+	}
 	.navbar-right {
 		padding-top: 90px;
 	}
