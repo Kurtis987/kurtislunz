@@ -3,47 +3,80 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
   		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="./css/style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 	<body class="portfolio">
-		<div id="nav-placeholder"></div>
-		<div class="container description">
-			<h1><strong>Faith Moves Radio</strong></h1>
-			<h2>What is this site for?</h2>
-			<p>The goal of this site is to promote more positivity and Christian music to help people focus on God.</p>
+		<div id="nav-placeholder"></div>	
+			<div class="description">
+				<h1><strong>Faith Moves Radio</strong></h1>
+				<h2>What is this site for?</h2>
+				<p>The goal of this site is to promote more positivity and Christian music to help people focus on God.</p>
 
-			<h2>What does it do?</h2>
-			<p>This site streams music from Live365. It has some lyrics to songs and some information about some of the artists</p>
+				<h2>What does it do?</h2>
+				<p>This site streams music from Live365. It has some lyrics to songs and some information about some of the artists</p>
 
-			<h2>How does it work?</h2>
-			<p>This site uses Angular JS, and the site is styled with Bootstrap. The player art and song title comes from a now-playing javascript file from Live 365. However, I overwrote most of the styling to achieve my personal styling vision. The original styling was a much larger widget.</p>
+				<h2>How does it work?</h2>
+				<p>This site uses Angular JS, and the site is styled with Bootstrap. The player art and song title comes from a now-playing javascript file from Live 365. However, I overwrote most of the styling to achieve my personal styling vision. The original styling was a much larger widget.</p>
 
-			<h2>Features</h2>
-			<ul>
-				<li>Lyrics</li>
-				<li>Songs</li>
-				<li>Artist Bios</li>
-				<li>Prayer Form (doesn't currently submit to anywhere)</li>
-				<li>Verses -My favorite Bible verses -Verse of the day</li>
-				<li>Player -Start -Stop -Adjustable volume</li>
-			</ul>
+				<h2>Features</h2>
+				<ul>
+					<li>Lyrics</li>
+					<li>Songs</li>
+					<li>Artist Bios</li>
+					<li>Prayer Form (doesn't currently submit to anywhere)</li>
+					<li>Verses -My favorite Bible verses -Verse of the day</li>
+					<li>Player -Start -Stop -Adjustable volume</li>
+				</ul>
 
 
-			<h2>Tech Used:</h2>
-			<h3>AngularJS</h3>
-			<p>I used AngularJS to handle page routing.</p>
-			<h3>Bootstrap</h3>
-			<p>I used Bootstrap to give my project a simple, responsive layout.</p>
-			
-			<a class="btn btn-primary btn-lg" href="https://kurtis987.github.io/faith-moves/">Launch Site</a>
-			
-		</div>
-		<div class="site-images">
-			<img class="thumbnail" src="img/faith-moves-thumbnail.png" alt="Faith Moves Thumbnail" width="500" height="500">
+				<h2>Tech Used:</h2>
+				<h3>AngularJS</h3>
+				<p>I used AngularJS to handle page routing.</p>
+				<h3>Bootstrap</h3>
+				<p>I used Bootstrap to give my project a simple, responsive layout.</p>
+				
+				<a class="btn btn-primary btn-lg" href="https://kurtis987.github.io/faith-moves/">Launch Site</a>
+				
+			</div>
+			<div class="site-images">
+				<div class="product-slider">
+				  <div id="carousel" class="carousel slide" data-ride="carousel">
+				    <div class="carousel-inner">
+				      <div class="item active"> <img src="img/faith-moves-thumbnail.png"> </div>
+				      <div class="item"> <img src="img/faith-moves-artists.png"> </div>
+				      <div class="item"> <img src="img/faith-moves-single-artist.png"> </div>
+				      <div class="item"> <img src="img/faith-moves-lyrics.png"> </div>
+				      <div class="item"> <img src="img/faith-moves-prayer-form.png"> </div>
+				      <div class="item"> <img src="img/faith-moves-songs.png"> </div>
+				      <div class="item"> <img src="img/faith-moves-verses.png"> </div>
+				    </div>
+				  </div>
+				  <div class="clearfix">
+				    <div id="thumbcarousel" class="carousel slide" data-interval="false">
+				      <div class="carousel-inner">
+				        <div class="item active">
+				          <div data-target="#carousel" data-slide-to="0" class="thumb"><img src="img/faith-moves-thumbnail.png"></div>
+				          <div data-target="#carousel" data-slide-to="1" class="thumb"><img src="img/faith-moves-artists.png"></div>
+				          <div data-target="#carousel" data-slide-to="2" class="thumb"><img src="img/faith-moves-single-artist.png"></div>
+				          <div data-target="#carousel" data-slide-to="3" class="thumb"><img src="img/faith-moves-lyrics.png"></div>
+				        </div>
+				        <div class="item">
+				        	<div data-target="#carousel" data-slide-to="4" class="thumb"><img src="img/faith-moves-prayer-form.png"></div>
+				          <div data-target="#carousel" data-slide-to="5" class="thumb"><img src="img/faith-moves-songs.png"></div>
+				          <div data-target="#carousel" data-slide-to="6" class="thumb"><img src="img/faith-moves-verses.png"></div>
+				        </div>
+				      </div>
+				      <!-- /carousel-inner --> 
+				      <a class="left carousel-control" href="#thumbcarousel" role="button" data-slide="prev"> <i class="fa fa-angle-left" aria-hidden="true"></i> </a> <a class="right carousel-control" href="#thumbcarousel" role="button" data-slide="next"><i class="fa fa-angle-right" aria-hidden="true"></i> </a> </div>
+				    <!-- /thumbcarousel --> 
+				    
+				  </div>
+				</div>
 
-		</div>
+			</div>
 		<script>
 			$(function(){
 			  $("#nav-placeholder").load("navbar.html");
