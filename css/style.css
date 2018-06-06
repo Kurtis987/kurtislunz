@@ -35,6 +35,9 @@
 .name {
 	margin-top: 146px;
 }
+.nav>li:hover {
+	border-bottom:1px solid white;
+}
 .navbar {
 	height: 230px;
 }
