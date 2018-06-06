@@ -9,7 +9,12 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 	<body class="portfolio">
-		<div id="nav-placeholder"></div>	
+		<div id="nav-placeholder"></div>
+		<script>
+			$(function(){
+			  $("#nav-placeholder").load("navbar.html");
+			});
+		</script>	
 			<div class="description">
 				<h1><strong>Faith Moves Radio</strong></h1>
 				<h2>What is this site for?</h2>
@@ -34,7 +39,7 @@
 
 				<h2>Tech Used:</h2>
 				<h3>AngularJS</h3>
-				<p>I used AngularJS to handle page routing.</p>
+				<p>I used AngularJS to handle page routing and to persist the radio across pages without refreshing.</p>
 				<h3>Bootstrap</h3>
 				<p>I used Bootstrap to give my project a simple, responsive layout.</p>
 				
@@ -77,10 +82,5 @@
 				</div>
 
 			</div>
-		<script>
-			$(function(){
-			  $("#nav-placeholder").load("navbar.html");
-			});
-		</script>
 	</body>
 </html>

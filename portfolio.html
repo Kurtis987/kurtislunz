@@ -9,6 +9,11 @@
 	</head>
 	<body class="portfolio">
 		<div id="nav-placeholder"></div>
+		<script>
+			$(function(){
+			  $("#nav-placeholder").load("navbar.html");
+			});
+		</script>
 		<div class="container flex-container">
 			<a href="faith-moves-radio.html" class="thumb-wrapper">
 				<img class="thumbnail" src="img/faith-moves-thumbnail.png" alt="Faith Moves Thumbnail" width="300" height="300">
@@ -31,10 +36,5 @@
 				<h3 class="thumb-title">School Donations</h3>
 			</a>
 		</div>
-		<script>
-			$(function(){
-			  $("#nav-placeholder").load("navbar.html");
-			});
-		</script>
 	</body>
 </html>

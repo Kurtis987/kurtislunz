@@ -9,6 +9,11 @@
 	</head>
 	<body class="portfolio">
 		<div id="nav-placeholder"></div>
+		<script>
+			$(function(){
+			  $("#nav-placeholder").load("navbar.html");
+			});
+		</script>
 		<div class="container description">
 			<h1><strong>School Donations</strong></h1>
 
@@ -30,7 +35,8 @@
 				<p>I used MongoDB to store data documents.</p>
 			<h4>D3,DC and Crossfilter</h4>
 				<p>I used D3, DC and Crossfilter to display dynamic graphs with which the user can interact.</p> 
- 			
+ 			<h2>Warning</h2>
+ 			<p>This site takes a minute to load due to the large amount of data</p>
 			
 			<a class="btn btn-primary btn-lg" href="https://secure-dusk-44689.herokuapp.com/">Launch Site</a>
 			
@@ -39,10 +45,6 @@
 			<img class="thumbnail" src="img/school-donations-thumbnail.png" alt="School Donations Thumbnail" width="500" height="500">
 
 		</div>
-		<script>
-			$(function(){
-			  $("#nav-placeholder").load("navbar.html");
-			});
-		</script>
+
 	</body>
 </html>
