@@ -83,6 +83,8 @@
 .thumb-wrapper {
 	text-decoration: none;
 	color: #5a5d5f;
+	margin: 0 5px;
+	padding: 10px;
 }
 .thumb-wrapper:hover {
 	text-decoration: none;
