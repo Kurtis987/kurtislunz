@@ -35,9 +35,7 @@
 .name {
 	margin-top: 146px;
 }
-.nav>li:hover {
-	border-bottom:1px solid white;
-}
+
 .navbar {
 	height: 230px;
 }
@@ -130,6 +128,9 @@
 	.name { 
 		margin-top: 0;
 	 }
+	.nav>li:hover {
+		border-bottom:1px solid white;
+	}
 	.navbar {
 		border-radius: 0;
 	}
