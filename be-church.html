@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="./css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body class="portfolio">
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="index.html"><img id="header-img" src="img/Kurtis.jpg" alt="Kurtis Lunz" width="200" height="200"></a>
+		    </div>
+		    <ul class="nav navbar-nav navbar-right">
+		      <li><a href="index.html">Home</a></li>
+		      <li><a href="portfolio.html">Portfolio</a></li>
+		      <li><a href="about.html">About</a></li> 
+		    </ul>
+		  </div>
+		</nav>	
+			<div class="description">
+				<h1><strong>BeChurch Reverse Engineered WordPress Theme</strong></h1>
+				<h2>What is this site for?</h2>
+				<p>This is a reverse engineered WordPress theme. I reverse engineered it to sharpen my WordPress development skills.</p>
+
+				<h2>What does it do?</h2>
+				<p>This is a reverse engineered WordPress theme that showcases a church.</p>
+ 
+
+				<h2>Features</h2>
+				<ul>
+					<li>Parallax scrolling for some of the header images</li>
+					<li>A responsive JavaScript navigation bar</li>
+					<li>Uses Flexbox for responsive sizing and positioning</li>
+					<li>Bootstrap carousel for testimonials</li>
+					<li>A dummy form for the contact page</li>
+				</ul>
+
+
+				<h2>Tech Used:</h2>
+				<h3>Flexbox</h3>
+				<p>I used flexbox to responsively display the images and text.</p>
+				<h3>Bootstrap</h3>
+				<p>I used Bootstrap to give my project a simple, responsive layout.</p>
+				<h3>JavaScript</h3>
+				<p>I used JavaScript to create a navigation bar that responds to scrolling</p>
+
+				<a class="btn btn-primary btn-lg" href="http://nameless-mountain-98864.herokuapp.com/">Launch Site</a>
+				
+			</div>
+			<div class="site-images">
+				<div class="product-slider">
+				  <div id="carousel" class="carousel slide" data-ride="carousel">
+				    <div class="carousel-inner">
+				      <div class="item active"> <img src="img/beChurch-home.png" alt="beChurch-home thumbnail"> </div>
+				      <div class="item"> <img src="img/beChurch-home1.png" alt="home auxiliary links thumbnail"> </div>
+				      <div class="item"> <img src="img/beChurch-about.png" alt="about us thumbnail"> </div>
+				      <div class="item"> <img src="img/beChurch-contact.png" alt="contact thumbnail"> </div>
+				      <div class="item"> <img src="img/beChurch-news.png" alt="news thumbnail"> </div> 
+				      <div class="item"> <img src="img/beChurch-sharing.png" alt="sharing thumbnail"> </div>
+				      <div class="item"> <img src="img/beChurch-sharing1.png" alt="sharing thumbnail"> </div>
+				    </div>
+				  </div>
+				  <div class="clearfix">
+				    <div id="thumbcarousel" class="carousel slide" data-interval="false">
+				      <div class="carousel-inner">
+				        <div class="item active">
+				          <div data-target="#carousel" data-slide-to="0" class="thumb"><img src="img/beChurch-home.png" alt="home page thumbnail"></div>
+				          <div data-target="#carousel" data-slide-to="1" class="thumb"><img src="img/beChurch-about.png" alt="about us page thumbnail"></div>
+				          <div data-target="#carousel" data-slide-to="2" class="thumb"><img src="img/beChurch-contact.png" alt="contact page thumbnail"></div>
+				          <div data-target="#carousel" data-slide-to="3" class="thumb"><img src="img/beChurch-sharing.png" alt="we share thumbnail"></div>
+				        </div>
+				        <div class="item">
+				        	<div data-target="#carousel" data-slide-to="4" class="thumb"><img src="img/beChurch-home1.png" alt="Home auxiliary links thumbnail"></div> 
+				        	<div data-target="#carousel" data-slide-to="5" class="thumb"><img src="img/beChurch-sharing1.png" alt="we share thumbnail"></div>
+				        	<div data-target="#carousel" data-slide-to="6" class="thumb"><img src="img/beChurch-news.png" alt="news page thumbnail"></div>
+				        </div> 
+				      </div>
+				      <!-- /carousel-inner --> 
+				      <a class="left carousel-control" href="#thumbcarousel" role="button" data-slide="prev"> <i class="fa fa-angle-left" aria-hidden="true"></i> </a> <a class="right carousel-control" href="#thumbcarousel" role="button" data-slide="next"><i class="fa fa-angle-right" aria-hidden="true"></i> </a> </div>
+				    <!-- /thumbcarousel --> 
+				   
+				  </div>
+				</div>
+
+			</div>
+	</body>
+</html>
