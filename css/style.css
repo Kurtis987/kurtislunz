@@ -4,6 +4,9 @@
 .arial {
 	font-family: "Arial", sans-serif;
 }
+body {
+	overflow: scroll;
+}
 .bold {
 	font-weight: bold;
 }
