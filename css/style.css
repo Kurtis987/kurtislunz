@@ -4,9 +4,6 @@
 .arial {
 	font-family: "Arial", sans-serif;
 }
-body {
-	overflow: scroll;
-}
 .bold {
 	font-weight: bold;
 }
@@ -35,9 +32,6 @@ body {
 .large {
 	max-width: 90%;
 }
-.name {
-	margin-top: 146px;
-}
 
 .navbar {
 	height: 230px;
@@ -62,6 +56,9 @@ body {
 .right {
 	margin-left: 50px;
 	
+}
+.right-column {
+	margin-top: 140px;
 }
 .right-heading {
 	margin-top: 25px;
@@ -119,10 +116,18 @@ body {
 
 .carousel-control.right, .carousel-control.left { background-color: rgba(0, 0, 0, 0); background-image: none; }
 
-
-@media (min-width: 546px){
+@media (max-width: 417px){
+	.column {
+		width: 95%;
+	}
 	.right-column {
-		margin-top: 113px;
+		margin-top: 10px;
+	}
+}
+
+@media (min-width: 550px){
+	.right-column {
+		margin-top: 100px;
 	}
 }
 @media (min-width: 768px){
@@ -151,9 +156,16 @@ body {
 	}
 	.right-column {
 			margin-left: 50px; 
+			margin-top: 84px;
 	}
 	.site-images {
 		float: left;
 		width: 50%;
+	}
+}
+
+@media (min-width: 992px){
+	.right-column {
+		margin-top: 46px;
 	}
 }
