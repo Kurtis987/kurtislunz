@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="./css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body class="portfolio">
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="index.html"><img id="header-img" src="img/Kurtis.jpg" alt="Kurtis Lunz" width="200" height="200"></a>
+		    </div>
+		    <ul class="nav navbar-nav navbar-right">
+		      <li><a href="index.html">Home</a></li>
+		      <li><a href="portfolio.html">Portfolio</a></li>
+		      <li><a href="about.html">About</a></li> 
+		    </ul>
+		  </div>
+		</nav>	
+			<div class="description">
+				<h1><strong>BeUniverse Reverse Engineered WordPress Theme</strong></h1>
+				<h2>What is this site for?</h2>
+				<p>This is a reverse engineered WordPress theme. I reverse engineered it to sharpen my WordPress development skills.</p>
+
+				<h2>What does it do?</h2>
+				<p>This is a reverse engineered WordPress theme that provides information about the universe.</p>
+ 
+
+				<h2>Features</h2>
+				<ul>
+					<li>Parallax scrolling for the gallery images</li>
+					<li>A responsive JavaScript navigation bar</li>
+					<li>Smooth scrolling for navigating smoothly to different sections of the page</li>
+					<li>Uses Flexbox and Grid for responsive sizing and positioning</li>
+					<li>A dummy form to subscribe</li>
+				</ul>
+
+
+				<h2>Tech Used:</h2>
+				<h3>Flexbox</h3>
+				<p>I used flexbox to responsively display the images and text.</p>
+				<h3>Grid</h3>
+				<p>I used the grid display style to responsively position and style the earth and mars sections of the page</p>
+				<h3>Bootstrap</h3>
+				<p>I used Bootstrap to give my project a simple, responsive layout.</p>
+				<h3>JavaScript</h3>
+				<p>I used JavaScript to create a navigation bar that responds to scrolling and to enable smooth scrolling</p>
+
+				<a class="btn btn-primary btn-lg" href="http://still-badlands-59292.herokuapp.com/">Launch Site</a>
+				
+			</div>
+			<div class="site-images">
+				<div class="product-slider">
+				  <div id="carousel" class="carousel slide" data-ride="carousel">
+				    <div class="carousel-inner">
+				      <div class="item active"> <img src="img/BeUniverse-home.png" alt="beCUniverse home thumbnail"> </div>
+				      <div class="item"> <img src="img/beUniverse-how-to-start.png" alt="how to start thumbnail"> </div>
+				      <div class="item"> <img src="img/beUniverse-mars.png" alt="mars thumbnail"> </div>
+				      <div class="item"> <img src="img/beUniverse-solar-system.png" alt="solar system thumbnail"> </div>
+				      <div class="item"> <img src="img/beUniverse-the-earth.png" alt="earth thumbnail"> </div> 
+				      <div class="item"> <img src="img/beUniverse-the-moon.png" alt="moon thumbnail"> </div>
+				      <div class="item"> <img src="img/beUniverse-subscribe.png" alt="subscribe thumbnail"> </div>
+				    </div>
+				  </div>
+				  <div class="clearfix">
+				    <div id="thumbcarousel" class="carousel slide" data-interval="false">
+				      <div class="carousel-inner">
+				        <div class="item active">
+				          <div data-target="#carousel" data-slide-to="0" class="thumb"><img src="img/BeUniverse-home.png" alt="home page thumbnail"></div>
+				          <div data-target="#carousel" data-slide-to="1" class="thumb"><img src="img/beUniverse-how-to-start.png" alt="how to start thumbnail"></div>
+				          <div data-target="#carousel" data-slide-to="2" class="thumb"><img src="img/beUniverse-mars.png" alt="mars thumbnail"></div>
+				          <div data-target="#carousel" data-slide-to="3" class="thumb"><img src="img/beUniverse-solar-system.png" alt="solar system thumbnail"></div>
+				        </div>
+				        <div class="item">
+				        	<div data-target="#carousel" data-slide-to="4" class="thumb"><img src="img/beUniverse-the-earth.png" alt="earth thumbnail"></div> 
+				        	<div data-target="#carousel" data-slide-to="5" class="thumb"><img src="img/beUniverse-the-moon.png" alt="moon thumbnail"></div>
+				        	<div data-target="#carousel" data-slide-to="6" class="thumb"><img src="img/beUniverse-subscribe.png" alt="subscribe thumbnail"></div>
+				        </div> 
+				      </div>
+				      <!-- /carousel-inner --> 
+				      <a class="left carousel-control" href="#thumbcarousel" role="button" data-slide="prev"> <i class="fa fa-angle-left" aria-hidden="true"></i> </a> <a class="right carousel-control" href="#thumbcarousel" role="button" data-slide="next"><i class="fa fa-angle-right" aria-hidden="true"></i> </a> </div>
+				    <!-- /thumbcarousel --> 
+				   
+				  </div>
+				</div>
+
+			</div>
+	</body>
+</html>
